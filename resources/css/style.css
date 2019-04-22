@@ -1,0 +1,67 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	word-spacing: 1px;
+}
+
+h1 {
+	margin: 0px; /*eta na dile <h1> er upore akta margin theke jabe (normalize.css er karone)*/ 
+	font-size: 310%;
+	font-weight: 400; /*no px, only 300, 400, 700*/
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;	
+/*	 margin padding diye border diye button akar dite paro */
+}
+
+header {
+	height: 100vh;
+	background: linear-gradient(to right, rgba(236, 165, 152, 0.6555), rgba(235, 145, 152, 0.6));
+	background-size: cover;
+	background-position: center;
+}
+
+.myLogo {
+	margin: 3px 45px;
+	width: 160px;
+}
+
+.myHeading {
+	width: 800px;
+	text-align: center;
+	/*border: 2px solid black;*/
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.myHeading h1 {
+	margin-bottom: 30px;
+}
+.myHeading a:link, 
+.myHeading a:visited {
+	border: 2px solid rgba(230, 125, 34);
+	padding: 10px 20px;
+	border-radius: 22px;
+	color: black;
+	font-size: 24px;
+	background: transparent;
+	transition: background .3s, color .3s;
+}
+
+.myHeading a:hover,
+.myHeading a:active {
+	color: white;
+	background: rgba(230, 125, 34);
+}
