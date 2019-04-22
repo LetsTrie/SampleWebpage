@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	word-spacing: 1px;
+}
+
+h1 {
+	margin: 0px; /*eta na dile <h1> er upore akta margin theke jabe (normalize.css er karone)*/ 
+	font-size: 310%;
+	font-weight: 400; /*no px, only 300, 400, 700*/
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;	
+/*	 margin padding diye border diye button akar dite paro */
+}
+
+input {
+	border: none;
+	outline: none;
+	background: none;
+}
+
+header {
+	height: 100vh;
+	background: linear-gradient(to right, rgba(236, 165, 152, 0.6555), rgba(235, 145, 152, 0.6));
+	background-size: cover;
+	background-position: center;
+}
+
+.myLogo {
+	margin: 3px 45px;
+	width: 160px;
+}
+
+.myLoginBox {
+	width: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+	background: linear-gradient(to right, rgba(236, 165, 152, 0.6555), rgba(235, 145, 152, 0.6));
+	padding: 65px 55px 70px 55px;
+	border: 2px solid black;
+	box-shadow: 5px 7px #999;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.myLoginBox h1{
+	text-align: center;
+	padding: 0 20px 20px 0;
+	margin: 20px;
+}
+
+.myTextBox {
+	width: 100%;
+	padding: 10px 0 5px 0;
+	margin: 10px 0 5px 0;
+	border-bottom: 1px solid rgba(230, 125, 34);
+}
+
+.pass {
+	margin-top: 20px;
+}
+
+.myTextBox i {
+	width: 25px;
+	text-align: center;
+}
+
+
+.myTextBox input {
+	width: 90%;	
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.myBtnDiv {
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.myloginBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	width: 120px;
+	height: 50px;
+	border-radius: 24px;
+	background: #e67e22;
+	color: white;
+	transition: color 0.4s, background-color 0.3s;
+}
+
+.myloginBtn:hover {
+	background-color: #bf6516;
+	color: #fff;
+}
