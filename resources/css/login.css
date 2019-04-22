@@ -47,7 +47,7 @@ header {
 	border-radius: 10px;
 	overflow: hidden;
 	background: linear-gradient(to right, rgba(236, 165, 152, 0.6555), rgba(235, 145, 152, 0.6));
-	padding: 65px 55px 70px 55px;
+	padding: 55px 55px 70px 55px;
 	border: 2px solid black;
 	box-shadow: 5px 7px #999;
 	position: absolute;
