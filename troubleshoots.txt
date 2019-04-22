@@ -13,8 +13,12 @@
 7) responsive nav bar.....
 
 8) clearfix ki.. bujhi na..??????
-==> clearfix use kora lagbe na... flexbox use koro... float badh dao
 
 9) facebook zoom korle akrokom, amar ta zoom korle arek rokom...
 
 10) scroll korar sathe sathe nav bar nambe...
+
+11) Calc time diff
+
+12) before after valo kore parte hobe...
+

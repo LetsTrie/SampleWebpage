@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Create New Post </title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../vendors/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="../vendors/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/createnewpost.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">	
+</head>
+<body>
+	<header>
+		<img src = "img/logo.png" alt = "Header logo" class = "myLogo">
+		<ul class = "myHeaderUiList">
+			<li> <a href="homepage.html"> Homepage </a> </li>
+			<li> <a href="#"> Create New Post </a> </li>
+			<li> <a href="#"> Daily Quiz </a> </li>
+			<li> <a href="#"> My Profile </a> </li>
+			<li> <a href="login.html" onclick="logout()"> Log out </a> </li>
+		</ul>
+	</header>
+
+	<section class="mySection">
+		<h1> Create New Post </h1>
+
+		<div class="container">
+			<div class="myRow">
+				<div class="col-25">
+					<label for="title">Title</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="createPostTitleId" name="postTitle" placeholder="Give a Title">
+				</div>
+			</div>
+
+			<div class="myRow">
+				<div class="col-25">
+					<label for="description">Description</label>
+				</div>
+				<div class="col-75">
+					<textarea id="createPostDescriptionId" name="postDescription" placeholder="Write a description" style="height:250px"></textarea>
+				</div>
+			</div>
+			<div class="myBtnDiv">
+				<input onclick="post_now()" class = "myBtn" type="submit" value="Submit">
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyCLt-WlXWeJ_xW7-ab2fpI45_dxb_22N10",
+	    authDomain: "fir-testproject-5ffed.firebaseapp.com",
+	    databaseURL: "https://fir-testproject-5ffed.firebaseio.com",
+	    projectId: "fir-testproject-5ffed",
+	    storageBucket: "fir-testproject-5ffed.appspot.com",
+	    messagingSenderId: "366565067129"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script type="text/javascript" src="js/createnewpost.js"></script>
+
+</body>
+</html>
