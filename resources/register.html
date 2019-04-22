@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Login Page </title>
+	<title> Register </title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../vendors/css/grid.css">
@@ -9,32 +9,34 @@
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">	
 </head>
-
 <body>
 	<header>
 		<img src = "img/logo.png" alt = "Header logo" class = "myLogo">
-		<div class="myLoginBox">
-			<h1>Login</h1>
-			<!-- <form method="POST"> -->
+		<div class="myLoginBox" style="padding-bottom: 70px">
+			<h1>Register</h1>
+			<!-- <form> -->
 				<div class="myTextBox">
 					<i class="fas fa-user"></i>
-					<input type="email" placeholder="Email" id="loginEmailID" required />
+					<input type="text" placeholder="Username" id="signupNameID">
+				</div>
+				<div class="myTextBox">
+					<i class="fas fa-envelope"></i>
+					<input type="email" placeholder="Email" id="signupEmailID">
 				</div>
 				<div class="myTextBox">
 					<i class="fas fa-lock"></i>
-					<input type="password" placeholder="Password" id="LoginPasswordID" required />
+					<input type="password" placeholder="Password" id="signupPasswordID">
 				</div>
-				<div class="myBtnDiv">
-					<input type="submit" class="myloginBtn" value="Sign in" onclick="login()">
+				<div class="myTextBox">
+					<i class="fas fa-lock"></i>
+					<input type="password" placeholder="Confirm password" id="signupConfirmPasswordID">
 				</div>
-				<div class = "notRegisterd">
-					<p> Not registered?  <a href="register.html"> Create an account </a> </p>
+				<div class="myBtnDiv" style="padding-top: 10px;" >
+					<input type="button" class="myloginBtn" value="Sign up" onclick="register()">
 				</div>
 			<!-- </form> -->
 		</div>
 	</header>
-
-
 
 	<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
 	<script>
@@ -49,6 +51,7 @@
 	  };
 	  firebase.initializeApp(config);
 	</script>
-	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+
 </body>
 </html>

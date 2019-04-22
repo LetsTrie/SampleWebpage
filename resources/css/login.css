@@ -6,9 +6,7 @@
 body {
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 20px;
-	font-weight: 300;
-	letter-spacing: 3px;
-	word-spacing: 1px;
+	font-weight: 400;
 }
 
 h1 {
@@ -43,11 +41,11 @@ header {
 }
 
 .myLoginBox {
-	width: 500px;
+	width: 450px;
 	border-radius: 10px;
 	overflow: hidden;
 	background: linear-gradient(to right, rgba(236, 165, 152, 0.6555), rgba(235, 145, 152, 0.6));
-	padding: 55px 55px 70px 55px;
+	padding: 55px 55px 0px 55px;
 	border: 2px solid black;
 	box-shadow: 5px 7px #999;
 	position: absolute;
@@ -57,24 +55,24 @@ header {
 }
 
 .myLoginBox h1{
+	letter-spacing: 3px;
+	word-spacing: 1px;
 	text-align: center;
 	padding: 0 20px 20px 0;
 	margin: 20px;
 }
 
 .myTextBox {
+	letter-spacing: 3px;
+	word-spacing: 1px;
 	width: 100%;
-	padding: 10px 0 5px 0;
-	margin: 10px 0 5px 0;
+	padding: 13.5px 0 5px 0;
+	margin: 13.5px 0 5px 0;
 	border-bottom: 1px solid rgba(230, 125, 34);
 }
 
-.pass {
-	margin-top: 20px;
-}
-
 .myTextBox i {
-	width: 25px;
+	width: 30px;
 	text-align: center;
 }
 
@@ -86,6 +84,8 @@ header {
 /*------------------------------------------------------------------
 [ Button ]*/
 .myBtnDiv {
+	letter-spacing: 3px;
+	word-spacing: 1px;
 	margin-top: 50px;
 	width: 100%;
 	display: flex;
@@ -110,3 +110,21 @@ header {
 	background-color: #bf6516;
 	color: #fff;
 }
+
+
+.notRegisterd {
+	margin-top: 90px;
+	margin-bottom: 30px;
+	float: right;
+	font-size: 15px;
+	color: #5e5e5e;
+}
+
+.notRegisterd a {
+	color: blue;
+	text-transform: none;
+	text-decoration: underline;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+

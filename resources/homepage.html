@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Homepage </title>
+	<link rel="stylesheet" type="text/css" href="../vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../vendors/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="../vendors/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">	
+</head>
+<body>
+	<header>
+		<img src = "img/logo.png" alt = "Header logo" class = "myLogo">
+		<ul class = "myHeaderUiList">
+			<li> <a href="homepage.html"> Homepage </a> </li>
+			<li> <a href="#"> Create New Post </a> </li>
+			<li> <a href="#"> Daily Quiz </a> </li>
+			<li> <a href="#"> My Profile </a> </li>
+			<li> <a href="login.html" onclick="logout()"> Log out </a> </li>
+		</ul>
+	</header>
+
+	<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyCLt-WlXWeJ_xW7-ab2fpI45_dxb_22N10",
+	    authDomain: "fir-testproject-5ffed.firebaseapp.com",
+	    databaseURL: "https://fir-testproject-5ffed.firebaseio.com",
+	    projectId: "fir-testproject-5ffed",
+	    storageBucket: "fir-testproject-5ffed.appspot.com",
+	    messagingSenderId: "366565067129"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script type="text/javascript" src="js/homepage.js"></script>
+</body>
+</html>
