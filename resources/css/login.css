@@ -30,6 +30,7 @@ input {
 
 header {
 	height: 100vh;
+	/*background-image: linear-gradient(147deg, #3F51B5 0%, #90CAF9 74%);*/
 	background: linear-gradient(to right, rgba(236, 165, 152, 0.6555), rgba(235, 145, 152, 0.6));
 	background-size: cover;
 	background-position: center;
@@ -43,7 +44,7 @@ header {
 .myLoginBox {
 	width: 450px;
 	border-radius: 10px;
-	overflow: hidden;
+	overflow: hidden; /*zoom korle box theke data ber hoye jete pare. hidden kore rakhar jonno*/
 	background: linear-gradient(to right, rgba(236, 165, 152, 0.6555), rgba(235, 145, 152, 0.6));
 	padding: 55px 55px 0px 55px;
 	border: 2px solid black;

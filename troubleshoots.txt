@@ -1,5 +1,20 @@
-1) from post likhle hocche na r..
+1) <from> POST likhle hocche na r..
 
 2) copied email boshale shada dag ashtese..
 
-3) post get bujhi na..
+3) POST GET bujhi na..
+
+4) loading page..
+
+5) auto empty detector....
+
+6) alert shundor kore dekhano....
+
+7) responsive nav bar.....
+
+8) clearfix ki.. bujhi na..??????
+==> clearfix use kora lagbe na... flexbox use koro... float badh dao
+
+9) facebook zoom korle akrokom, amar ta zoom korle arek rokom...
+
+10) scroll korar sathe sathe nav bar nambe...
