@@ -58,7 +58,7 @@ header {
 	color: black;
 	font-size: 22px;
 	font-weight: 400;
-	margin: 75px 65px;
+	margin: 85px 40px;
 }
 
 .myHeaderUiList li{
@@ -84,6 +84,7 @@ My Posts
 */
 
 .myPost {
+	visibility: hidden;
 	letter-spacing: 1px;
 	word-spacing: 3px;
 	width: 80% ;
@@ -104,8 +105,8 @@ My Posts
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 120%;
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin: 0px auto 20px auto;
+	margin: 20px;
 	text-align: center; 
 }
 

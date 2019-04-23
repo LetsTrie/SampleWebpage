@@ -12,7 +12,7 @@
 
 7) responsive nav bar.....
 
-8) clearfix ki.. bujhi na..??????
+8) clearfix ki.. bujhi na..
 
 9) facebook zoom korle akrokom, amar ta zoom korle arek rokom...
 
@@ -22,3 +22,7 @@
 
 12) before after valo kore parte hobe...
 
+13) firebase e data update/delete/insert ager data delete hoy na.. refresh kora lage...
+
+14) // document.getElementById(currentBlockID).getElementById('myPostTitle').innerHTML = childData.Title;
+	keno kaj kore na???
