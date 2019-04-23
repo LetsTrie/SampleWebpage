@@ -1,14 +1,16 @@
 function login(){
-  var userEmail = document.getElementById("loginEmailID").value;
-  var userPassword = document.getElementById("LoginPasswordID").value;
+  let userEmail = document.getElementById("loginEmailID").value;
+  let userPassword = document.getElementById("LoginPasswordID").value;
 
   firebase.auth().signInWithEmailAndPassword(userEmail, userPassword).then(function(user) {
-      var user = firebase.auth().currentUser;
+      user = firebase.auth().currentUser;
+      console.log("in Login")
+      console.log(user);
       window.location = "homepage.html";
   }, function(error) {
 
-      var errorCode = error.code;
-      var errorMessage = error.message;
+      let errorCode = error.code;
+      let errorMessage = error.message;
       window.alert("Error Code: " + errorCode);
       window.alert("Error Message: " + errorMessage);   
   }); 

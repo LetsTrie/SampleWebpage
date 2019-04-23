@@ -160,6 +160,12 @@ label {
   clear: both;
 }
 
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .mySection h1 {
 	font-size: 250%;
 	text-align: center;

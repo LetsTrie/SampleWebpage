@@ -28,7 +28,7 @@ function register(){
 		});
 
 		firebase.database().ref('users/' + userId).set({
-			FirstName : userName,
+			UserName : userName,
 			Email : userEmail,
 			UserID : userId
 		})

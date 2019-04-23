@@ -49,8 +49,18 @@ header {
 .myHeading h1 {
 	margin-bottom: 30px;
 }
-.myHeading a:link, 
-.myHeading a:visited {
+
+/*------------------------------------------------------------------*/
+/*----------------------------- Button -----------------------------*/
+/*------------------------------------------------------------------*/
+
+.myBtn {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;	
+	font-weight: 400;
+	letter-spacing: 3px;
+	word-spacing: 1px;
 	border: 2px solid rgba(230, 125, 34);
 	padding: 10px 20px;
 	border-radius: 22px;
@@ -61,8 +71,8 @@ header {
 	transition: background .3s, color .3s;
 }
 
-.myHeading a:hover,
-.myHeading a:active {
+.myBtn:hover {
 	color: white;
 	background: rgba(230, 125, 34);
 }
+/*------------------------------------------------------------------ */
